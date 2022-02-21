@@ -202,7 +202,7 @@
   position: absolute;
 }
 .skills .item-text .w-90 {
-  margin-left: 85%;
+  margin-left: 75%;
 }
 .skills .item-text .w-75 {
   margin-left: 70%;
@@ -560,7 +560,7 @@
   margin: 0px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 6.5s steps(22, end) forwards, blink 1s infinite;
+  animation: typing 5.5s steps(21, end) forwards, blink 1.5s infinite;
 }
 @keyframes typing {
   0% {
@@ -576,7 +576,7 @@
     border-right: 2px solid transparent;
   }
   50% {
-    border-right: 2px solid rgb(238, 156, 156);
+    border-right: 2px solid rgb(189, 238, 156);
   }
 }
 .highlight {
@@ -696,11 +696,10 @@
 .box:after {
   background: linear-gradient(235deg, #89ff00, #010615, #00bcd4);
 }
-/* .box:nth-child(2):before,
-.box:nth-child(2):after {
-  background: linear-gradient(235deg, #ff005e, #010615, #fbff00);
+
+.beginner {
+  color: rgb(100, 237, 214);
 }
-.box:nth-child(3):before,
-.box:nth-child(3):after {
-  background: linear-gradient(235deg, #772aff, #010615, #2196f3);
-} */
+.intermediate {
+  color: #0bc404;
+}

@@ -20,3 +20,8 @@ window.onscroll = function () {
   let proressHeight = (window.pageYOffset / totalHeight) * 100;
   progress.style.height = proressHeight + "%";
 };
+const cvBtn = document.querySelector(".cvbtn");
+
+cvBtn.addEventListener("click", () => {
+  alert(`Sorry Guys Coming Soon 😅`);
+});
